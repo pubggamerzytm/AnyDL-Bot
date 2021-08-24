@@ -1,15 +1,15 @@
-import os
+
 
 
 class Config(object):
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = "1906215997:AAF9SVBK_MV76h6k7WRmaDWkS-TzyFlJHc0"
 
-    APP_ID = int(os.environ.get("APP_ID", 12345))
+    APP_ID = "772592"
 
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = "d3d942434ed946cfc4a4f1ce9a4bf929"
 
-    AUDIO_THUMBNAIL = os.environ.get("AUDIO_THUMBNAIL", "")
+    AUDIO_THUMBNAIL = "AUDIO_THUMBNAIL"
 
-    VIDEO_THUMBNAIL = os.environ.get("VIDEO_THUMBNAIL", "")
+    VIDEO_THUMBNAIL = "VIDEO_THUMBNAIL"
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    UPDATES_CHANNEL = "Legitbotpayouts"
