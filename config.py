@@ -1,4 +1,4 @@
-
+import os
 
 
 class Config(object):
@@ -8,8 +8,9 @@ class Config(object):
 
     API_HASH = "d3d942434ed946cfc4a4f1ce9a4bf929"
 
-    AUDIO_THUMBNAIL = "AUDIO_THUMBNAIL"
+    
+    AUDIO_THUMBNAIL = os.environ.get("AUDIO_THUMBNAIL", "")
 
-    VIDEO_THUMBNAIL = "VIDEO_THUMBNAIL"
+    VIDEO_THUMBNAIL = os.environ.get("VIDEO_THUMBNAIL", "")
 
     UPDATES_CHANNEL = "Legitbotpayouts"
