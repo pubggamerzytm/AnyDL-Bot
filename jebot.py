@@ -54,7 +54,7 @@ async def help(client, message):
 
 Just send a Youtube, Pornhub or Xhamster video url to download it in video or audio format!
 
-Join @Infinity_BOTs</b>""",
+Join @Legitbotpayouts</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
